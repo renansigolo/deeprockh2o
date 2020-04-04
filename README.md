@@ -1,4 +1,10 @@
-# Deeprock
+# DeepRock H2O - Landing Page
+
+## Hosting
+
+Hosted at [DeepRock H2O - Firebase Project](https://deeprockh2o.web.app/)
+
+## Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 

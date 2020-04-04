@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('deeprock app is running!');
+    expect(page.getTitleText()).toEqual('deeprockh2o app is running!');
   });
 
   afterEach(async () => {

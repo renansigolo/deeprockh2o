@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'deeprock'`, () => {
+  it(`should have as title 'deeprockh2o'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('deeprock');
+    expect(app.title).toEqual('deeprockh2o');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('deeprock app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('deeprockh2o app is running!');
   });
 });
