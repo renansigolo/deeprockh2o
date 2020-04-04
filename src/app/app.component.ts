@@ -10,7 +10,8 @@ export class AppComponent {
 
   products = [
     {
-      img: 'https://danone-evian-com-prod.s3-eu-west-1.amazonaws.com/new_bottle/range_prestige_us/prest500ml.png',
+      img:
+        'https://danone-evian-com-prod.s3-eu-west-1.amazonaws.com/new_bottle/range_prestige_us/prest500ml.png',
       description: 'Boston 500',
       size: '500mL',
     },
@@ -56,6 +57,30 @@ export class AppComponent {
       subtitle: 'Lorem Subtitle',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!',
+    },
+  ];
+
+  socialIcons = [
+    {
+      name: 'mail',
+      url:
+        'mailto:sales@deeprockh2o.com?Subject=DeepRock%20H2O%20-%20Website%20Contact',
+    },
+    {
+      name: 'facebook',
+      url: '#!',
+    },
+    {
+      name: 'twitter',
+      url: '#!',
+    },
+    {
+      name: 'instagram',
+      url: '#!',
+    },
+    {
+      name: 'linkedin',
+      url: '#!',
     },
   ];
 }
